@@ -1,1 +1,103 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>7 Picks — Streaming Edition</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #0D0D1A;
+      color: #fff;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      padding: 40px 20px;
+    }
+    .logo-num {
+      font-size: 120px;
+      font-weight: 900;
+      line-height: 1;
+      letter-spacing: -6px;
+    }
+    .logo-text {
+      font-size: 20px;
+      font-weight: 700;
+      letter-spacing: 12px;
+      color: #A0A0C0;
+      margin-top: -8px;
+    }
+    .tagline {
+      font-size: 18px;
+      color: #A0A0C0;
+      margin-top: 24px;
+      text-align: center;
+      max-width: 400px;
+      line-height: 1.6;
+    }
+    .accent { color: #E8C547; }
+    .badge {
+      margin-top: 32px;
+      padding: 8px 24px;
+      border: 1.5px solid rgba(255,255,255,0.12);
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 600;
+      color: #606080;
+      letter-spacing: 1px;
+    }
+    .tech {
+      margin-top: 48px;
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .tech-pill {
+      padding: 6px 16px;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 999px;
+      font-size: 12px;
+      color: #606080;
+      font-weight: 600;
+    }
+    .cta {
+      margin-top: 40px;
+      padding: 14px 40px;
+      background: #E8C547;
+      color: #000;
+      border: none;
+      border-radius: 999px;
+      font-size: 15px;
+      font-weight: 800;
+      cursor: pointer;
+      letter-spacing: 0.5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="logo-num">7</div>
+  <div class="logo-text">PICKS</div>
+  <p class="tagline">
+    <span class="accent">7 curated picks.</span> No more scrolling.<br/>
+    AI-powered movie &amp; TV recommendations for your mood.
+  </p>
+  <div class="badge">STREAMING EDITION — V1</div>
+  <div class="tech">
+    <span class="tech-pill">React Native (Expo)</span>
+    <span class="tech-pill">Node.js / Express</span>
+    <span class="tech-pill">Claude claude-opus-4-6</span>
+    <span class="tech-pill">TMDB API</span>
+    <span class="tech-pill">SQLite</span>
+  </div>
+  <p style="margin-top:40px;color:#606080;font-size:13px;text-align:center;max-width:480px;line-height:1.8;">
+    Backend: <code style="color:#A0A0C0">cd backend && npm install && cp .env.example .env && npm run dev</code><br/>
+    Mobile: <code style="color:#A0A0C0">cd app && npm install && npx expo start</code>
+  </p>
+</body>
+</html>
